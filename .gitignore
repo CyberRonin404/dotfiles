@@ -1,0 +1,23 @@
+# Ignore everything by default
+*
+
+# But do not ignore these important dotfiles
+!.bashrc
+!.gitconfig
+!.gitignore
+!.vimrc
+!.config/nvim/init.lua
+!.kube/config
+
+# Ignore common noisy directories
+.cache/
+.local/
+.ssh/
+.mozilla/
+Music/
+Pictures/
+Videos/
+Downloads/
+Desktop/
+Documents/
+
